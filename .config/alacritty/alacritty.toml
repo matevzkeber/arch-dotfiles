@@ -1,0 +1,81 @@
+[colors.bright]
+black = "#626880"
+blue = "#8CAAEE"
+cyan = "#81C8BE"
+green = "#A6D189"
+magenta = "#F4B8E4"
+red = "#E78284"
+white = "#E1E3EA"
+yellow = "#E5C890"
+
+[colors.normal]
+black = "#51576D"
+blue = "#7193E2"
+cyan = "#63BFB3"
+green = "#8EC16C"
+magenta = "#EF9ED5"
+red = "#DB5759"
+white = "#C5C9D8"
+yellow = "#E0B96B"
+
+[colors.primary]
+background = "#303446"
+foreground = "#C6D0F5"
+
+[env]
+TERM = "xterm-256color"
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+[font]
+size = 12
+
+[font.normal]
+family = "Cousine Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Alt"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Alt"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[window]
+decorations = "full"
+dynamic_title = true
+opacity = 0.9
+
+[window.padding]
+x = 8
+y = 8

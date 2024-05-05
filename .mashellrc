@@ -1,0 +1,3 @@
+alias ls "ls --color=auto"
+
+export PROMPT "{red}{username}{white} on {red}{hostname} {white}at {red}{path} {white}$ "
